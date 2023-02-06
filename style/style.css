@@ -49,6 +49,14 @@ body {
     color: #fff;
 }
 
+.card-title {
+    height: 5rem;
+}
+
+.card-text {
+    height: 5rem;
+}
+
 .judul {
     text-align: center;
     width: auto;
@@ -144,4 +152,28 @@ h1 {
 .profile:hover {
     /* transform: rotate(90deg); */
     filter: drop-shadow(10px 8px 15px rgba(0, 0, 0, 0.3));
+}
+
+.singel-news {
+    padding: 1rem 8% 2rem 8%;
+    width: 80%;
+}
+
+.singel-news hr {
+    color: #e14d2a;
+}
+
+.singel-news .penulis {
+    font-size: 12px;
+    text-align: center;
+}
+
+.singel-news p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .singel-news {
+        width: 100%;
+    }
 }
