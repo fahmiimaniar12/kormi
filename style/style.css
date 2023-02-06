@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+}
+
+.bg-cont {
+    background-color: aquamarine;
+}
+
+/* navbar */
+.navbar-brand span {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 1rem
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #e14d2a;
+    color: #efefef;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 1rem;
+    margin: 0 .8rem;
+    padding: 1rem 1rem !important;
+    border-radius: .5rem;
+}
+
+.navbar .nav-item a:hover {
+    background-color: #e14d2a;
+    /* background-color: #e6b938; */
+    color: #efefef;
+}
+
+/* end navbar */
+
+/* section berita */
+.kriteria {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+.judul {
+    text-align: center;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.judul::after {
+    content: '';
+    display: block;
+    padding-bottom: .5rem;
+    border-bottom: 5px solid black;
+    transform: scaleX(0);
+    transition: .2s linear;
+}
+
+.judul:hover::after {
+    content: '';
+    display: block;
+    padding-bottom: .5rem;
+    border-bottom: 5px solid #e14d2a;
+    transform: scaleX(.2);
+}
+
+/* end section */
+
+/* footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: auto;
+
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: 0;
+    padding: .5rem 0 .5rem 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-style {
+    background-color: #fff;
+    border: none;
+    color: #212529;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: ease .5s;
+}
+
+.btn-style:hover {
+    background-color: #e14d2a;
+    box-shadow: 0px 15px 20px #e14d2a;
+    color: #fff;
+    /* transform: translateY(-7px); */
+}
+
+.jumbotron {
+    box-shadow: none;
+    transition: .2s linear;
+}
+
+.jumbotron:hover {
+    box-shadow: 5px 10px 5px rgb(225, 77, 42, 0.5);
+    /* box-shadow: 5px 10px 5px rgba(79, 79, 79, 0.5);#e14d2a; */
+}
+
+.profile {
+    width: 350px;
+    transition: .2s ease-in-out;
+}
+
+.profile:hover {
+    /* transform: rotate(90deg); */
+    filter: drop-shadow(10px 8px 15px rgba(0, 0, 0, 0.3));
+}
