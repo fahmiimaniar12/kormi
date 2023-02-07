@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #efefef;
+    background-color: #f1f1f1;
+    /* background-color: #efefef; */
 }
 
 .bg-cont {
@@ -136,6 +137,7 @@ h1 {
 
 .jumbotron {
     box-shadow: none;
+    box-shadow: 10px 10px 10px rgba(164, 164, 164, 0.5);
     transition: .2s linear;
 }
 
