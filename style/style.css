@@ -147,7 +147,7 @@ h1 {
 }
 
 .profile {
-    width: 350px;
+    height: 350px;
     transition: .2s ease-in-out;
 }
 
